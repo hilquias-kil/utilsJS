@@ -5,10 +5,9 @@
 change a item in the array by index, and return new array.
 
 ```js
-const insertByIndex = (state, newItem, insertAt) =>
-[
-  ...state.slice(0, insertAt),
-  newItem,
-  ...state.slice(insertAt, state.length - 1)
-]
+const insertByIndex = (state, newItem, insertAt) =>{
+    let arr = state.slice()
+    arr[insertAt] = newItem;
+    return arr;
+}
 ```
