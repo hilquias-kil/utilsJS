@@ -11,3 +11,7 @@ const insertByIndex = (state, newItem, insertAt) =>{
     return arr;
 }
 ```
+
+## Links
+
+- [You might not need lodash](https://youmightnotneed.com/lodash/) | utils plain js
